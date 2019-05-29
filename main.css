@@ -1,0 +1,16 @@
+.column {
+    /* display:inline-block; */
+    width: 100%;
+    height: 180px;
+    margin: 1px;
+    background: lightgreen;
+}
+
+@media (min-width: 992px) {
+    .column {
+        float: left;
+        width: 30%;
+        margin: 10px;
+        background: darkgreen;
+    }
+}
