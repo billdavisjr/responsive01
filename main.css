@@ -1,16 +1,28 @@
+/* smartphone/defaults */
 .column {
-    /* display:inline-block; */
     width: 100%;
     min-height: 180px;
     margin: 1px;
     background: lightgreen;
 }
 
-@media (min-width: 992px) {
+/* tablet */
+@media (min-width: 768px) {
     .column {
         float: left;
         width: 30%;
         margin: 10px;
+        background: green;
+    }
+}
+
+/* desktop */
+@media (min-width: 992px) {
+    .column {
+        float: left;
+        width: 30%;
+        margin: 5px;
         background: darkgreen;
     }
 }
+
